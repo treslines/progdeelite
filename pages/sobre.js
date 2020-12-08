@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-function sobre(){
+function Sobre(){
    return (
       <div>
          <h1>Programador de Elite: Sobre</h1>
@@ -12,4 +12,4 @@ function sobre(){
 }
 
 
-export default sobre
+export default Sobre
