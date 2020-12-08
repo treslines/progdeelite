@@ -1,8 +1,12 @@
+import Link from 'next/link'
+
 function home(){
    return (
       <div>
          <h1>Programador de Elite: Home</h1>
-         <a href="/sobre">Go to Sobre</a>
+         <Link href="/sobre">
+            <a>Go to Sobre</a>
+         </Link>
       </div>
    )
 }
