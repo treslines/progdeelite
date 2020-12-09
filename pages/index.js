@@ -10,6 +10,7 @@ function Home(){
          </Link>
 
          <div class="card" style={{width: 18 + 'rem'}}>
+            <img class="card-img-top rounded mx-auto d-block" src="https://avatars0.githubusercontent.com/u/1042887?s=460&u=280ed0b18fc655f34b2a9ac1896f9ecbf64386c4&v=4" alt="Card image cap"/>
             <div class="card-body">
                <h5 class="card-title">Card title</h5>
                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
