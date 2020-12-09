@@ -1,9 +1,8 @@
 import Link from 'next/link'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-function Home(){
+function Sobre(){
    return (
-
       <div class="container my-4 " style={{backgroundColor: '#FFEE00'}}>
          <div class="row text-center">
             <div class="col-md-6 mb-4">
@@ -28,8 +27,9 @@ function Home(){
             </div>
          </div>
       </div>
+
    )
 }
 
 
-export default Home
+export default Sobre

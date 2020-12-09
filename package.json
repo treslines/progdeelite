@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/treslines/progdeelite#readme",
   "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
     "next": "^10.0.3",
+    "popper": "^1.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
