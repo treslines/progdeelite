@@ -3,23 +3,30 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Home(){
    return (
-      <div>
-         <h1>Programador de Elite: Home</h1>
-         <Link href="/sobre">
-            <a>Go to Sobre</a>
-         </Link>
 
-         <div class="card" style={{width: 18 + 'rem'}}>
-            <img class="card-img-top rounded mx-auto d-block" src="https://avatars0.githubusercontent.com/u/1042887?s=460&u=280ed0b18fc655f34b2a9ac1896f9ecbf64386c4&v=4" alt="Card image cap"/>
-            <div class="card-body">
-               <h5 class="card-title">Card title</h5>
-               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-               <a href="#" class="card-link">Card link</a>
-               <a href="#" class="card-link">Another link</a>
+      <div class="container my-4 " style={{backgroundColor: '#FFEE00'}}>
+         <div class="row text-center">
+            <div class="col-md-6 mb-4">
+               <Link href="/" >
+                  <img class="img-responsive" width="250"  alt="100x100" src="/logo.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/>
+               </Link>
             </div>
          </div>
-
+         <div class="row text-center">
+            <div class="col-md-6 mb-4">
+               <img class="rounded-circle img-responsive" width="100" alt="100x100" src="/perfil.png" data-holder-rendered="true" />
+               
+               <p class="my-4">VOU TE AJUDAR A CONSEGUIR UM <br></br><span class="font-weight-bold" style={{backgroundColor: ''}}>TOP JOB</span> E SATISFAÇÃO FINANCEIRA!</p>
+            </div>
+         </div>
+         <div class="row text-center">
+            <div class="col-md-6 mb-4">
+               <Link href="https://www.instagram.com/progdeelite/" ><img class="img-responsive" width="46" alt="46x46" src="/insta_icon.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
+               <Link href="https://twitter.com/progdeelite" ><img class="img-responsive" width="46" alt="46x46" src="/twitter_icon.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
+               <Link href="https://web.facebook.com/progdeelite" ><img class="img-responsive" width="46" alt="46x46" src="/face_icon.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
+               <Link href="https://www.youtube.com/channel/UCsEdUK6zNAA95aGlqoBOclQ" ><img class="img-responsive" width="56" alt="46x46" src="/youtube_icon.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
+            </div>
+         </div>
       </div>
    )
 }
