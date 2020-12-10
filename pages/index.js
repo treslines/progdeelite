@@ -15,7 +15,7 @@ export default function Home() {
          <div class="row text-center">
             <div class="col-md-6 mb-4">
                <Link href="/_app" >
-                  <img class="img-responsive" width="250"  alt="100x100" src="/logo.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/>
+                  <img class="img-responsive" width="250"  alt="100x100" src="/logo_prog.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/>
                </Link>
             </div>
          </div>
