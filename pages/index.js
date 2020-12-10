@@ -14,9 +14,15 @@ function Home(){
          </div>
          <div class="row text-center">
             <div class="col-md-6 mb-4">
-               <img class="rounded-circle img-responsive" width="100" alt="100x100" src="/perfil.png" data-holder-rendered="true" />
-               
                <p class="my-4">VOU TE AJUDAR A CONSEGUIR UM <br></br><span class="font-weight-bold" style={{backgroundColor: ''}}>TOP JOB</span> E SATISFAÇÃO FINANCEIRA!</p>
+               <img class="rounded-circle img-responsive" width="100" alt="100x100" src="/perfil.png" data-holder-rendered="true" />
+            </div>
+         </div>
+         <div class="row text-center">
+            <div class="col-md-6 mb-4">
+               <Link href="https://www.youtube.com/channel/UCsEdUK6zNAA95aGlqoBOclQ" >
+                  <img class="img-responsive" width="250"  alt="100x100" src="/banner_teaser.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/>
+               </Link>
             </div>
          </div>
          <div class="row text-center">
