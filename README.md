@@ -1,4 +1,4 @@
-<p align="center"><img width="450" alt="logo image" src="https://github.com/treslines/progdeelite/blob/main/public/logo.png"></p>
+<p align="center"><img width="300" alt="logo image" src="https://github.com/treslines/progdeelite/blob/main/public/logo.png"></p>
 
 <p align="center" >
   VOU TE AJUDAR A CONSEGUIR UM </br><strong>TOP JOB</strong> E SATISFAÇÃO FINANCEIRA!
