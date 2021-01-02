@@ -21,24 +21,38 @@ export default function Home() {
          </div>
          <div class="row text-center">
             <div class="col-md-6 mb-4">
-               <p class="my-4">VOU TE AJUDAR A CONSEGUIR UM <br></br><span class="font-weight-bold" style={{backgroundColor: ''}}>TOP JOB</span> E SATISFAÇÃO FINANCEIRA!</p>
-               <Link href="https://www.youtube.com/channel/UCsEdUK6zNAA95aGlqoBOclQ" >
+               <p class="my-4">VOU TE AJUDAR A CONSEGUIR UM <span class="font-weight-bold" style={{backgroundColor: '#FFEE00'}}>TOP JOB</span>!<br></br><br></br>OPORTUNIDADES DE EMPREGO,<br></br>
+               TECNOLOGIA, MACETES & TRUQUES!</p>
+               <Link href="https://tinyurl.com/yprodel" >
                   <img class="rounded-circle img-responsive" width="100" alt="100x100" src="/perfil.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/>
                </Link>
             </div>
          </div>
          <div class="row text-center">
             <div class="col-md-6 mb-4">
-               <Link href="https://www.youtube.com/channel/UCsEdUK6zNAA95aGlqoBOclQ" >
+               <Link href="https://tinyurl.com/yprodel" >
                   <img class="img-responsive" width="250"  alt="100x100" src="/banner_teaser.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/>
                </Link>
             </div>
          </div>
+
          <div class="row text-center">
             <div class="col-md-6 mb-4">
-               <Link href="https://www.youtube.com/channel/UCsEdUK6zNAA95aGlqoBOclQ" ><img class="img-responsive" width="200" alt="46x46" src="/youtube_icon.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
+               <p class="my-4">VOCÊ É DA ÁREA DE <span class="font-weight-bold" style={{backgroundColor: ''}}>TI?</span><br></br><b>Eu quero te conhecer!</b><br></br><span class="font-weight-bold" style={{backgroundColor: '#FFEE00'}}>COMO POSSO TE SEGUIR?</span><br></br></p>
+               <img class="img-responsive" width="50"  alt="50x50" src="/site_arrow_down.png" data-holder-rendered="true"/>
             </div>
          </div>
+
+         <div class="row text-center">
+            <div class="col-md-6 mb-4">
+               <Link href="https://tinyurl.com/tprodel" ><img class="img-responsive" width="46" alt="46x46" src="/site_tiktok.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
+               <Link href="https://tinyurl.com/iprodel" ><img class="img-responsive" width="46" alt="46x46" src="/site_insta.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
+               <Link href="https://tinyurl.com/rprodel" ><img class="img-responsive" width="46" alt="46x46" src="/site_twitter.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
+               <Link href="https://tinyurl.com/fprodel" ><img class="img-responsive" width="46" alt="46x46" src="/site_facebook.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
+               <Link href="https://tinyurl.com/yprodel" ><img class="img-responsive" width="46" alt="46x46" src="/site_youtube.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
+            </div>
+         </div>
+         
          <div class="row text-center">
             <div class="col-md-6 mb-4">
                <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
@@ -48,12 +62,34 @@ export default function Home() {
                </div>
             </div>
          </div>
+
          <div class="row text-center">
             <div class="col-md-6 mb-4">
-               <Link href="https://www.instagram.com/progdeelite/" ><img class="img-responsive" width="46" alt="46x46" src="/insta_icon.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
-               <Link href="https://twitter.com/progdeelite" ><img class="img-responsive" width="46" alt="46x46" src="/twitter_icon.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
-               <Link href="https://web.facebook.com/progdeelite" ><img class="img-responsive" width="46" alt="46x46" src="/face_icon.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
-               {/* <Link href="https://www.youtube.com/channel/UCsEdUK6zNAA95aGlqoBOclQ" ><img class="img-responsive" width="200" alt="46x46" src="/youtube_icon.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link> */}
+               <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
+                  <iframe allowfullscreen style={{position: 'absolute', top: '0', left: '0', width: '100%', height: '100%', border: '0',}}
+                     src="https://www.youtube.com/embed/c3wy-9rHECs">
+                  </iframe>
+               </div>
+            </div>
+         </div>
+
+         <div class="row text-center">
+            <div class="col-md-6 mb-4">
+               <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
+                  <iframe allowfullscreen style={{position: 'absolute', top: '0', left: '0', width: '100%', height: '100%', border: '0',}}
+                     src="https://www.youtube.com/embed/7sLZc7SCS3M">
+                  </iframe>
+               </div>
+            </div>
+         </div>
+
+         <div class="row text-center">
+            <div class="col-md-6 mb-4">
+               <Link href="https://tinyurl.com/tprodel" ><img class="img-responsive" width="46" alt="46x46" src="/site_tiktok.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
+               <Link href="https://tinyurl.com/iprodel" ><img class="img-responsive" width="46" alt="46x46" src="/site_insta.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
+               <Link href="https://tinyurl.com/rprodel" ><img class="img-responsive" width="46" alt="46x46" src="/site_twitter.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
+               <Link href="https://tinyurl.com/fprodel" ><img class="img-responsive" width="46" alt="46x46" src="/site_facebook.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
+               <Link href="https://tinyurl.com/yprodel" ><img class="img-responsive" width="46" alt="46x46" src="/site_youtube.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/></Link>
             </div>
          </div>
       </div>
