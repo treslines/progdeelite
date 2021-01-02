@@ -9,6 +9,18 @@ export default function Home() {
       <Head>
         <title>Prog. De Elite</title>
         <link rel="icon" href="favicon/favicon.ico" />
+        <link
+            rel="preload"
+            href="/fonts/Anton-Regular.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/LuckiestGuy-Regular.ttf"
+            as="font"
+            crossOrigin=""
+          />
       </Head>
 
       <div class="container my-4 " /* style={{backgroundColor: '#FFEE00'}} */>
@@ -21,7 +33,7 @@ export default function Home() {
          </div>
          <div class="row text-center">
             <div class="col-md-6 mb-4">
-               <p class="my-4">VOU TE AJUDAR A CONSEGUIR UM <span class="font-weight-bold" style={{backgroundColor: '#FFEE00'}}>TOP JOB</span>!<br></br><br></br>OPORTUNIDADES DE EMPREGO,<br></br>
+               <p class="my-4" >VOU TE AJUDAR A CONSEGUIR UM <span class="font-weight-bold" style={{backgroundColor: '#FFEE00'}}>TOP JOB</span>!<br></br><br></br>OPORTUNIDADES DE EMPREGO,<br></br>
                TECNOLOGIA, MACETES & TRUQUES!</p>
                <Link href="https://tinyurl.com/yprodel" >
                   <img class="rounded-circle img-responsive" width="100" alt="100x100" src="/perfil.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/>
@@ -38,7 +50,7 @@ export default function Home() {
 
          <div class="row text-center">
             <div class="col-md-6 mb-4">
-               <p class="my-4">VOCÊ É DA ÁREA DE <span class="font-weight-bold" style={{backgroundColor: ''}}>TI?</span><br></br><b>Eu quero te conhecer!</b><br></br><span class="font-weight-bold" style={{backgroundColor: '#FFEE00'}}>COMO POSSO TE SEGUIR?</span><br></br></p>
+               <p class="my-4" style={{fontFamily: 'luckiestguy'}}>VOCÊ É DA ÁREA DE <span class="font-weight-normal" style={{backgroundColor: ''}}>TI?</span><br></br>EU QUERO TE CONHECER!<br></br><span class="font-weight-normal" style={{backgroundColor: '#FFEE00'}}>COMO POSSO TE SEGUIR?</span><br></br></p>
                <img class="img-responsive" width="50"  alt="50x50" src="/site_arrow_down.png" data-holder-rendered="true"/>
             </div>
          </div>

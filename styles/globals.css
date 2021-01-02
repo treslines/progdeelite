@@ -14,3 +14,17 @@ a {
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "anton";
+  src: url("/fonts/Anton-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Luckiestguy";
+  src: url("/fonts/LuckiestGuy-Regular.ttf");
+  font-style: medium;
+  font-weight: 400;
+  font-display: swap;
+}
