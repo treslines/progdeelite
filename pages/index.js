@@ -9,28 +9,32 @@ export default function Home() {
       <Head>
         <title>Prog. De Elite</title>
         <link rel="icon" href="favicon/favicon.ico" />
+        <link
+            rel="preload"
+            href="/fonts/Anton-Regular.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/LuckiestGuy-Regular.ttf"
+            as="font"
+            crossOrigin=""
+          />
       </Head>
 
       <div class="container my-4 " /* style={{backgroundColor: '#FFEE00'}} */>
          <div class="row text-center">
             <div class="col-md-6 mb-4">
-               <Link href="/_app" >
+               <Link href="/" >
                   <img class="img-responsive" width="250"  alt="100x100" src="/logo_prog.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/>
                </Link>
             </div>
          </div>
+
          <div class="row text-center">
             <div class="col-md-6 mb-4">
-               <p class="my-4">VOU TE AJUDAR A CONSEGUIR UM <span class="font-weight-bold" style={{backgroundColor: '#FFEE00'}}>TOP JOB</span>!<br></br><br></br>OPORTUNIDADES DE EMPREGO,<br></br>
-               TECNOLOGIA, MACETES & TRUQUES!</p>
-               <Link href="https://tinyurl.com/yprodel" >
-                  <img class="rounded-circle img-responsive" width="100" alt="100x100" src="/perfil.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/>
-               </Link>
-            </div>
-         </div>
-         <div class="row text-center">
-            <div class="col-md-6 mb-4">
-               <Link href="https://tinyurl.com/yprodel" >
+               <Link href="https://tinyurl.com/tprodel" >
                   <img class="img-responsive" width="250"  alt="100x100" src="/banner_teaser.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/>
                </Link>
             </div>
@@ -38,8 +42,25 @@ export default function Home() {
 
          <div class="row text-center">
             <div class="col-md-6 mb-4">
-               <p class="my-4">VOCÊ É DA ÁREA DE <span class="font-weight-bold" style={{backgroundColor: ''}}>TI?</span><br></br><b>Eu quero te conhecer!</b><br></br><span class="font-weight-bold" style={{backgroundColor: '#FFEE00'}}>COMO POSSO TE SEGUIR?</span><br></br></p>
-               <img class="img-responsive" width="50"  alt="50x50" src="/site_arrow_down.png" data-holder-rendered="true"/>
+               <p class="my-4" >VOU TE AJUDAR A<br></br> CONSEGUIR UM <span style={{backgroundColor: '#FFEE00', fontFamily: 'luckiestguy'}}>TOP JOB</span>!<br></br><br></br><span style={{fontFamily: 'luckiestguy'}}>ME SEGUE PARA:</span><br></br>OPORTUNIDADES DE EMPREGO,<br></br>
+               TECNOLOGIA, MACETES & TRUQUES!</p>
+               <Link href="/profile" >
+                  <img class="rounded-circle img-responsive" width="100" alt="100x100" src="/perfil.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/>
+               </Link>
+            </div>
+         </div>
+         
+
+         <div class="row text-center">
+            <div class="col-md-6 mb-4">
+               <p class="my-4" style={{}}>
+                  VOCÊ É DA <span class="font-weight-normal" style={{backgroundColor: '', fontFamily: 'luckiestguy'}}>
+                  ÁREA DE  TI?</span><br></br>
+                  EU QUERO TE CONHECER!<br></br>
+                  <span class="font-weight-normal" style={{backgroundColor: '#FFEE00', fontFamily: 'luckiestguy'}}>
+                  COMO TE ENCONTRO?</span><br></br>
+               </p>
+               <img class="img-responsive" width="25"  alt="50x50" src="/site_arrow_down.png" data-holder-rendered="true"/>
             </div>
          </div>
 
