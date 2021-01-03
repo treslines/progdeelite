@@ -23,14 +23,19 @@ export default function Profile() {
           />
       </Head>
 
-      <div class="container my-4 " /* style={{backgroundColor: '#FFEE00'}} */>
+      <div class="container my-4 " >
          
          <div class="row text-center">
             <div class="col-md-6 mb-4">
             <Link href="https://tinyurl.com/tprodel" >
                <img class="img-responsive" width="250"  alt="100x100" src="/banner_teaser.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/>
             </Link>
-            <p class="my-4" ><span class="font-weight-normal" style={{backgroundColor: '#FFffff', fontFamily: 'luckiestguy'}}>RICARDO FERREIRA</span></p>
+            <p class="my-4" ><span class="font-weight-normal" style={{backgroundColor: '#FFffff', fontFamily: 'luckiestguy'}}>RICARDO FERREIRA</span><br></br>
+            <Link href="https://tinyurl.com/tprodel" >
+               <b style={{color: 'grey', cursor: 'pointer'}}>@progdeelite</b>
+            </Link>
+            
+            </p>
                <Link href="https://tinyurl.com/tprodel" >
                   <img class="rounded-circle img-responsive" width="100" alt="100x100" src="/perfil.png" data-holder-rendered="true" style={{cursor: 'pointer'}}/>
                </Link>
