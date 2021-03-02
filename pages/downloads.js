@@ -68,6 +68,11 @@ export default function Profile() {
                            CV Modelo Europa - Para enviar direto para empresas!
                         </Link>
                      </li>
+                     <li class="list-group-item">
+                        <Link href="/docs/CV_modelo_para_iniciantes_em_ingles.docx" >
+                           CV Modelo Iniciante - Para enviar direto para empresas!
+                        </Link>
+                     </li>
                      <li class="list-group-item">CV Modelo Headhunter - Coming soon! Stay tuned! ;)</li>
                   </ul>
                </div>
