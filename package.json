@@ -11,7 +11,7 @@
     "url": "git+https://github.com/treslines/progdeelite.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ricardo Ferreira",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/treslines/progdeelite/issues"
@@ -27,6 +27,7 @@
     "next": "^10.0.3",
     "popper": "^1.0.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "sass": "^1.32.8"
   }
 }

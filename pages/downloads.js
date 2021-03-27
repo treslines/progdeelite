@@ -2,13 +2,13 @@ import styles from '../styles/Home.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Social from '../src/components/Social'
-import Downloads from '../src/components/Download'
+import Download from '../src/components/Download'
 import Header from '../src/components/Header'
 import Ricardo from '../src/components/Ricardo'
 import Picture from "../src/components/Picture"
 import Like from "../src/components/Like"
 
-export default function Profile() {
+export default function Downloads() {
   return (
     <div className={styles.container} >
       <Header title="Downloads" />
@@ -21,7 +21,7 @@ export default function Profile() {
             </div>
          </div>
          <Social />
-         <Downloads />
+         <Download />
       </div>
     </div>
   )
